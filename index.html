@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="logic.js"></script>
+    </head>
+    <body>
+
+        <div class="Header"><h1>TIC-TAC-TOE</h1></div>
+
+        <div class="Match_Arena" id="Match_Arena">
+            <div class="Play_Arena" id="Play_Arena">
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_1" onclick="Box_Click(id)" style="border-left: none;border-top: none;"></button>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_2" onclick="Box_Click(id)" style="border-top: none;"></button>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_3" onclick="Box_Click(id)" style="border-right: none;border-top: none;"></button>
+                <br>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_4" onclick="Box_Click(id)" style="border-left: none;"></button>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_5" onclick="Box_Click(id)"></button>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_6" onclick="Box_Click(id)" style="border-right: none;"></button>
+                <br>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_7" onclick="Box_Click(id)" style="border-left: none;border-bottom: none;"></button>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_8" onclick="Box_Click(id)"  style="border-bottom: none;"></button>
+                <button class="Play_Arena_Box_Class" id="Play_Arena_Box_9" onclick="Box_Click(id)" style="border-right: none;border-bottom: none"></button>
+            </div>
+        </div>
+    </body>
+</html>
